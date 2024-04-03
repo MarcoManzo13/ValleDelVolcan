@@ -5,14 +5,12 @@
         image="../assets/HeroLandingImage.jpg"
         theme="dark"
       >
-        <v-container fluid>
-          <v-row justify="start">
-            <v-col cols="12" sm="6" md="6">
+        <v-container fluid class="d-flex pl-15">
               <v-card 
                 elevated 
                 style="height: 80vh; width: 25vw;" 
-                class="my-5 d-flex align-center justify-center space-between flex-column"
-                color="red"
+                class="my-5 ml-15 d-flex align-center flex-column"
+                color="#1F7087"
             >
                 <v-card-title class="text-h5 my-5">
                     Valle del volcán
@@ -24,16 +22,13 @@
 
                 <v-card-actions>
                     <v-btn rounded="xl" variant="outlined" class="mt-16 px-7">
-                        Go to...
+                        Ir a...
                     </v-btn>
                 </v-card-actions>
-
               </v-card>
-            </v-col>
-          </v-row>
         </v-container>
       </v-card>
-      <Servicios />
+      <Servicios :products="productsToPass"/>
       <Localidad />
       <Rutas />
       <SobreNosotros />
@@ -45,8 +40,31 @@
 </template>
 
 <script>
+import BotellaDeAgua from '../assets/BotellaDeAgua.png'
     export default {
-        
+      data() {
+        return {
+          // Cambiar IDs para que se vayan a otras páginas, crear esas otras páginas también
+          productsToPass: [
+            {
+              id: 1,
+              image: BotellaDeAgua,
+              description: '1Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe animi consequuntur dolores reprehenderit voluptas beatae rerum praesentium corrupti, fugiat laborum?'
+            },
+            {
+              id: 1,
+              image: BotellaDeAgua,
+              description: '2Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe animi consequuntur dolores reprehenderit voluptas beatae rerum praesentium corrupti, fugiat laborum?'
+            },
+            {
+              id: 1,
+              image: BotellaDeAgua,
+              description: '3Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe animi consequuntur dolores reprehenderit voluptas beatae rerum praesentium corrupti, fugiat laborum?'
+            },
+            // ... more products
+          ]
+        };
+      }
     }
 </script>
 

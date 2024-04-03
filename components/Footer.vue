@@ -31,18 +31,24 @@
                 </div>
             </v-col>
             <v-col cols="4" class="mt-11">
-                <div class="d-flex flex-column">
-                    <div class="d-flex flex-column align-left mx-16">
+                <div class="d-flex flex-column justify-start align-left">
+                    <div class="d-flex flex-column mx-16" style="max-width: 100%;">
                         <p class="d-flex text-left text-h5">Menu</p>
-                        <v-btn class="justify-start align-left text-center mt-3">
-                            <NuxtLink to="/" style="text-decoration: none; color: #000;">Inicio</NuxtLink>
-                        </v-btn>
-                        <v-btn class="justify-start align-left text-center mt-3">
-                            <NuxtLink to="/" style="text-decoration: none; color: #000;">Tienda</NuxtLink>
-                        </v-btn>
-                        <v-btn class="justify-start align-left text-center mt-3">
-                            <NuxtLink to="/" style="text-decoration: none; color: #000;">Contáctanos</NuxtLink>
-                        </v-btn>
+                        <NuxtLink to="/" style="text-decoration: none; color: #000;">
+                            <v-btn class="d-flex justify-start align-left text-left mt-3" style="width: 100%;">
+                               Inicio
+                            </v-btn>
+                        </NuxtLink>
+                        <NuxtLink to="/Tienda" style="text-decoration: none; color: #000;">
+                            <v-btn class="d-flex justify-start align-left text-left mt-3" style="width: 100%;">
+                               Tienda
+                            </v-btn>
+                        </NuxtLink>
+                        <NuxtLink to="/Contactanos" style="text-decoration: none; color: #000;">
+                            <v-btn class="d-flex justify-start align-left text-left mt-3" style="width: 100%;">
+                               Contáctanos
+                            </v-btn>
+                        </NuxtLink>
                     </div>
                 </div>
             </v-col>

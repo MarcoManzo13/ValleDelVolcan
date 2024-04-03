@@ -9,12 +9,12 @@
                             Inicio
                         </v-btn>
                     </NuxtLink>
-                    <NuxtLink icon to="/Reporte">
+                    <NuxtLink icon to="/Tienda">
                         <v-btn style="color: #000;" variant="outlined" class="mx-2">
                             Tienda
                         </v-btn>
                     </NuxtLink>
-                    <NuxtLink icon to="/Encontrados">
+                    <NuxtLink icon to="/Contactanos">
                         <v-btn style="color: #000;" variant="outlined" class="mx-2">
                             Contáctanos
                         </v-btn>
