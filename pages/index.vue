@@ -35,6 +35,12 @@
       </v-card>
       <Servicios />
       <Localidad />
+      <Rutas />
+      <SobreNosotros />
+      <Vision />
+      <Certificacion />
+      <ClientesConocidos />
+      <Footer />
     </div>
 </template>
 
