@@ -9,9 +9,9 @@
         >
           <v-container fluid>
             <v-row no-gutters>
-              <v-col cols="4">
+              <v-col cols="12" md="4" xl="4">
                 <div class="d-flex flex-column align-center justify-center text-center" style="height: 100%;" >
-                  <div class="mr-5">
+                  <div>
                     <v-card-title class="text-h5 text-center mb-5">
                       Dirección
                     </v-card-title>
@@ -21,7 +21,7 @@
                   </div>
                 </div>
               </v-col>
-              <v-col cols="8">
+              <v-col cols="12" md="8" xl="8">
                 <v-img
                   src="../assets/mapaLocalidad.png"
                   aspect-ratio="2/3"
