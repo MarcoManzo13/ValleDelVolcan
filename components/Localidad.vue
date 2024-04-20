@@ -1,6 +1,6 @@
 <template>
     <div class="mb-10">
-        <p class="text-center text-h5 mb-5">Dirección</p> 
+        <p class="text-center text-h4 mb-5">Dirección</p> 
 
         <v-card
           color="#0B4864"

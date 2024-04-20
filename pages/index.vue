@@ -23,8 +23,8 @@
                         Valle del Volcán
                     </v-card-title>
 
-                    <v-card-subtitle class="text-h6 px-8 text-wrap text-center">
-                        Agua de manantial purificada, certificada para tu consumo.
+                    <v-card-subtitle class="text-h6 px-8 text-wrap text-center" style="line-height: 1.5">
+                      Nuestra misión es proporcionar agua purificada de calidad óptima, caracterizada por su equilibrio perfecto de sales para la hidratación humana y la preparación de alimentos, todo esto ofreciendo un servicio puntual y oportuno.
                     </v-card-subtitle>
 
                     <v-card-actions>

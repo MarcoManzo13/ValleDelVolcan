@@ -1,11 +1,11 @@
 <template>
     <div class="my-10">
-      <p class="text-center text-h5 mb-10">Servicios</p>
+      <p class="text-center text-h4 mb-10">Servicios</p>
       <div class="mx-10">
         <v-row>
           <v-col>
             <v-card class="pa-5">
-              <v-card-title class="d-flex text-center justify-center">
+              <v-card-title class="d-flex text-center justify-center text-h5">
                 Compra en Local
               </v-card-title>
 
@@ -23,7 +23,7 @@
           </v-col>
           <v-col>
             <v-card class="pa-5">
-              <v-card-title class="d-flex text-center justify-center">
+              <v-card-title class="d-flex text-center justify-center text-h5">
                 Botellas Personalizadas
               </v-card-title>
 
@@ -41,7 +41,7 @@
           </v-col>
           <v-col>
             <v-card class="pa-5">
-              <v-card-title class="d-flex text-center justify-center">
+              <v-card-title class="d-flex text-center justify-center text-h5">
                 Entrega a Domicilio
               </v-card-title>
 

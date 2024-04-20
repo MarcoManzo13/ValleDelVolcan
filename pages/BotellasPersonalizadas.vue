@@ -7,7 +7,7 @@
       style="background-color: #edf6f9;"
       class="mx-10"
       >
-        <v-carousel progress="primary" class="d-flex flex-column justify-center">
+        <v-carousel progress="primary" hide-delimiters class="d-flex flex-column justify-center" style="height: 100%;">
             <v-carousel-item v-for="(item, i) in items" :key="i" cover>
               <v-row class="d-flex justify-center align-center mt-5">
                 <v-col cols="12" md="4" xl="4" class="d-flex align-center justify-center">
@@ -34,7 +34,7 @@
             </v-carousel-item>
         </v-carousel>
       </v-card>
-        <Footer />
+      <Footer />
     </div>
 </template>
 
@@ -75,6 +75,6 @@ export default {
   }
 </script>
 
-<style lang="scss" scoped>
+<style scoped>
 
 </style>

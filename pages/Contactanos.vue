@@ -1,6 +1,6 @@
 <template>
     <div>
-        <v-row class="d-flex align-center justify-center ma-10">
+        <v-row class="d-flex align-center justify-center ma-15">
             <v-col cols="12" md="6" xl="6" class="d-flex align-center justify-center text-center">
                 <v-img 
                 src="../assets/mapaLocalidad.png" 
@@ -14,15 +14,15 @@
                     class="my-5 pa-10 d-flex align-center justify-center space-between flex-column"
                     color="#0B4864"
                 >
-                    <v-card-title class="text-h5 mt-5">
+                    <v-card-title class="text-h4 mt-5">
                         Sucursal
                     </v-card-title>
-                    <v-card-subtitle class="text-h7 pa-10 text-wrap text-justify">
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod, ab nulla! Culpa modi dolores, quia cupiditate eligendi quas autem at expedita earum esse deserunt quasi voluptates unde minima qui error.
+                    <v-card-subtitle class="text-h5 pa-10 text-wrap text-justify" style="line-height: 1.5;">
+                        Camino Real a San Andrés 1230, Local 1 Plaza Bahías, 72810 San Andrés Cholula, Puebla México.
                     </v-card-subtitle>
                     <v-card-actions>
-                        <v-btn rounded="xl" variant="outlined" class="px-7">
-                            Ir a...
+                        <v-btn href="https://maps.app.goo.gl/mg9mXJYQhmEbrkH16" rel="noopener" target="_blank" rounded="xl" variant="outlined" class="px-7">
+                            Visitar...
                         </v-btn>
                     </v-card-actions>
                 </v-card>

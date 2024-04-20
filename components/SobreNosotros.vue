@@ -1,6 +1,6 @@
 <template>
     <div class="my-10">
-        <p class="text-center text-h5 mb-8">Sobre Nosotros</p> 
+        <p class="text-center text-h4 mb-8">Sobre Nosotros</p> 
             <div class="mx-10">
                 <v-row no-gutters>
                     <v-col class="my-2">
@@ -16,7 +16,7 @@
                                 </div>
                             </v-card-text>
                             <v-card-subtitle class="pt-4 text-justify text-wrap">
-                                Texto (Pequeña quote o algo así): Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit illum recusandae officiis sed ipsum aut, totam officia pariatur voluptas ducimus?
+                                Trabajar en nuestra empresa es llevar frescura y calidad directamente a los hogares. Es conectar con la comunidad y ser parte de su día a día, asegurando que siempre tengan agua pura a su alcance.
                             </v-card-subtitle>
                         </v-card>
                     </v-col>
@@ -33,7 +33,7 @@
                                 </div>
                             </v-card-text>
                             <v-card-subtitle class="pt-4 text-justify text-wrap">
-                                Texto (Pequeña quote o algo así): Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit illum recusandae officiis sed ipsum aut, totam officia pariatur voluptas ducimus?
+                                Trabajar en nuestra empresa es llevar frescura y calidad directamente a los hogares. Es conectar con la comunidad y ser parte de su día a día, asegurando que siempre tengan agua pura a su alcance.
                             </v-card-subtitle>
                         </v-card>
                     </v-col>
@@ -50,7 +50,7 @@
                                 </div>
                             </v-card-text>
                             <v-card-subtitle class="pt-4 text-justify text-wrap">
-                                Texto (Pequeña quote o algo así): Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit illum recusandae officiis sed ipsum aut, totam officia pariatur voluptas ducimus?
+                                Trabajar en nuestra empresa es llevar frescura y calidad directamente a los hogares. Es conectar con la comunidad y ser parte de su día a día, asegurando que siempre tengan agua pura a su alcance.
                             </v-card-subtitle>
                         </v-card>
                     </v-col>
