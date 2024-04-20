@@ -1,9 +1,9 @@
 <template>
-    <div style="background-color: #edf6f9; overflow-x: hidden;">
+    <div style="background-color: #edf6f9;">
         <div style="width: 100%;" class="d-flex align-center justify-center text-center mt-13 font-size-h2" >
             <p class="mb-5">Entrega a Domicilio</p>
         </div>
-        <v-row class="my-15 pa-0 d-flex justify-center align-center">
+        <v-row class="my-15 pa-0 d-flex justify-center align-center" style="overflow-x: hidden;">
             <v-col cols="12" md="4" xl="4" class="d-flex align-center justify-center">   
                 <v-img 
                     src="../assets/Servicios/ServicioDomicilio.png" 

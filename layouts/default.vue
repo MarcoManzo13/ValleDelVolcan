@@ -6,9 +6,9 @@
                 <v-app-bar-nav-icon v-if="!isWideScreen" @click.stop="drawer = !drawer" />
                 <v-app-bar-title style="text-align: left;">VALLE DEL VOLCÁN</v-app-bar-title>
                 <!-- Buttons rendered in app bar if screen is wide -->
-                <v-btn v-if="isWideScreen" text to="/">Inicio</v-btn>
-                <v-btn v-if="isWideScreen" text to="/Tienda">Tienda</v-btn>
-                <v-btn v-if="isWideScreen" text to="/Contactanos">Contáctanos</v-btn>
+                <v-btn v-if="isWideScreen" text to="/" class="text-h5">Inicio</v-btn>
+                <v-btn v-if="isWideScreen" text to="/Tienda" class="text-h5">Tienda</v-btn>
+                <v-btn v-if="isWideScreen" text to="/Contactanos" class="text-h5">Contáctanos</v-btn>
             </v-app-bar>
 
             <!-- Navigation drawer -->
