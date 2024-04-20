@@ -12,7 +12,7 @@
                 <v-card 
                     elevated 
                     class="my-5 pa-10 d-flex align-center justify-center space-between flex-column"
-                    color="#1F7087"
+                    color="#0B4864"
                 >
                     <v-card-title class="text-h5 mt-5">
                         Sucursal
@@ -29,6 +29,7 @@
             </v-col>
         </v-row>
         
+        <Rutas />
         <Footer />
     </div>
 </template>

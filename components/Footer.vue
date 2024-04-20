@@ -1,51 +1,72 @@
 <template>
-    <div style="background-color: #add0db;">
+    <div style="background-color: #add0db; color:#0B4864;">
         <v-row class="d-flex justify-center text-center mx-10 mt-5">
             <v-col cols="12" md="4" xl="4" class="mt-5">
-                <div class="d-flex flex-column">
-                    <div class="d-flex flex-row text-center justify-center align-center">
-                        <Icon name="fa6-solid:location-dot" size="9em"/>
+                <div class="d-flex flex-column align-start my-2">
+                    <div class="d-flex flex-column text-left justify-start align-start">
+                        <div class="d-flex flex-row align-start justify-start text-left ml-3 mb-2">
+                            <Icon name="fa6-solid:location-dot" size="2em" class="ml-1"/>
+                            <p class="text-h5 ml-2">Dirección</p>
+                        </div>
                         <div class="ml-5">
-                            <p class="text-left text-h5">Dirección</p>
-                            <p class="d-flex text-justify text-wrap">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad eligendi voluptate quos veritatis libero esse consequuntur ducimus incidunt aspernatur earum.</p>
+                            <p class="d-flex text-justify text-wrap">
+                                Camino Real a San Andrés 1230, Local 1 Plaza Bahías, 72810 San Andrés Cholula, Puebla México.
+                            </p>
                         </div>
                     </div>
                 </div>
-                <div class="d-flex flex-column">
-                    <div class="d-flex flex-row text-center justify-center align-center">
-                        <Icon name="fa6-solid:clock" size="9em"/>
+                
+                <div class="d-flex flex-column align-start my-2">
+                    <div class="d-flex flex-column text-left justify-start align-start">
+                        <div class="d-flex flex-row align-start justify-start text-left ml-3 mb-2">
+                            <Icon name="fa6-solid:clock" size="2em" class="ml-2"/>
+                            <p class="text-h5 ml-2">Horario</p>
+                        </div>
                         <div class="ml-5">
-                            <p class="text-left text-h5">Horario</p>
-                            <p class="d-flex text-justify text-wrap">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad eligendi voluptate quos veritatis libero esse consequuntur ducimus incidunt aspernatur earum.</p>
+                            <p class="d-flex text-justify text-wrap">
+                                Servicio Local: 
+                                <br>
+                                Lunes a Viernes 8:00am a 7:00pm. 
+                                <br>
+                                Sábado 9:00am a 4:00pm.
+                                <br>
+                                Autoservicio 24/7
+                            </p>
                         </div>
                     </div>
                 </div>
-                <div class="d-flex flex-column">
-                    <div class="d-flex flex-row text-center justify-center align-center">
-                        <Icon name="fa6-solid:phone" size="9em"/>
+
+                <div class="d-flex flex-column align-start my-2">
+                    <div class="d-flex flex-column text-left justify-start align-start">
+                        <div class="d-flex flex-row align-start justify-start text-left ml-3 mb-2">
+                            <Icon name="fa6-solid:phone" size="2em" class="ml-2"/>
+                            <p class="text-h5 ml-2">Contacto</p>
+                        </div>
                         <div class="ml-5">
-                            <p class="text-left text-h5">Contacto</p>
-                            <p class="d-flex text-justify text-wrap">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad eligendi voluptate quos veritatis libero esse consequuntur ducimus incidunt aspernatur earum.</p>
+                            <p class="d-flex text-justify text-wrap">
+                                Servicio a Domicilio: 2215304660
+                            </p>
                         </div>
                     </div>
                 </div>
+
             </v-col>
             <v-col cols="12" md="4" xl="4" class="mt-11">
                 <div class="d-flex flex-column justify-start align-left">
-                    <div class="d-flex flex-column mx-16" style="max-width: 100%;">
+                    <div class="d-flex flex-column mx-16" style="max-width: 100%; color:#0B4864;">
                         <p class="d-flex text-left text-h5">Menu</p>
-                        <NuxtLink to="/" style="text-decoration: none; color: #000;">
-                            <v-btn class="d-flex justify-start align-left text-left mt-3" style="width: 100%;">
+                        <NuxtLink to="/" style="text-decoration: none;">
+                            <v-btn class="d-flex justify-start align-left text-left mt-3" style="width: 100%; color: #0B4864;">
                                 Inicio
                             </v-btn>
                         </NuxtLink>
-                        <NuxtLink to="/Tienda" style="text-decoration: none; color: #000;">
-                            <v-btn class="d-flex justify-start align-left text-left mt-3" style="width: 100%;">
+                        <NuxtLink to="/Tienda" style="text-decoration: none;">
+                            <v-btn class="d-flex justify-start align-left text-left mt-3" style="width: 100%; color: #0B4864;">
                                 Tienda
                             </v-btn>
                         </NuxtLink>
-                        <NuxtLink to="/Contactanos" style="text-decoration: none; color: #000;">
-                            <v-btn class="d-flex justify-start align-left text-left mt-3" style="width: 100%;">
+                        <NuxtLink to="/Contactanos" style="text-decoration: none;">
+                            <v-btn class="d-flex justify-start align-left text-left mt-3" style="width: 100%; color: #0B4864;">
                                 Contáctanos
                             </v-btn>
                         </NuxtLink>

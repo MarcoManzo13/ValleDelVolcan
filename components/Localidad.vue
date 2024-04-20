@@ -1,11 +1,14 @@
 <template>
     <div class="mb-10">
-        <p class="text-center text-h5 mb-5">Localidad</p> 
+        <p class="text-center text-h5 mb-5">Dirección</p> 
 
         <v-card
-          color="#1F7087"
+          color="#0B4864"
           theme="dark"
           class="mx-15"
+          href="https://maps.app.goo.gl/mg9mXJYQhmEbrkH16"
+          rel="noopener"
+          target="_blank"
         >
           <v-container fluid>
             <v-row no-gutters>
@@ -15,8 +18,8 @@
                     <v-card-title class="text-h5 text-center mb-5">
                       Dirección
                     </v-card-title>
-                    <v-card-subtitle class="text-wrap text-justify my-5">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, incidunt, accusantium enim quod adipisci repudiandae laborum dolore explicabo neque, dicta sunt! Dignissimos corrupti aliquam harum, consequuntur necessitatibus ullam commodi fuga.
+                    <v-card-subtitle class="text-wrap text-h6 text-justify my-5">
+                      Camino Real a San Andrés 1230, Local 1 Plaza Bahías, 72810 San Andrés Cholula, Puebla México.
                     </v-card-subtitle>
                   </div>
                 </div>
