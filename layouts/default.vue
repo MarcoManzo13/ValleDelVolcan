@@ -4,7 +4,14 @@
             <!-- App bar with navigation icon -->
             <v-app-bar style="background-color: #add0db; color:#0B4864;">
                 <v-app-bar-nav-icon v-if="!isWideScreen" @click.stop="drawer = !drawer" />
-                <v-app-bar-title style="text-align: left;">VALLE DEL VOLCÁN</v-app-bar-title>
+                <v-app-bar-title style="text-align: left;">
+                    <!--
+                    <v-avatar>
+                        <v-img src="~/assets/ValleDelVolcanLogo.png"/>
+                    </v-avatar>
+                    -->
+                    VALLE DEL VOLCÁN
+                </v-app-bar-title>
                 <!-- Buttons rendered in app bar if screen is wide -->
                 <v-btn v-if="isWideScreen" text to="/" class="text-h5">Inicio</v-btn>
                 <v-btn v-if="isWideScreen" text to="/Tienda" class="text-h5">Tienda</v-btn>

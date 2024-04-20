@@ -1,11 +1,11 @@
 <template>
     <div>
         <div style="width: 100%;" class="d-flex align-center justify-center text-center mt-5 text-h4">
-            <p class="mb-5">Botellas Personalizadas</p>
+            <p>Conoce Nuestro Proceso</p>
         </div>
         <v-card
         style="background-color: #edf6f9;"
-        class="mx-10"
+        class="ma-10"
         >
             <v-carousel progress="primary">
                 <v-carousel-item v-for="(item, i) in items" :key="i" cover> 
@@ -13,7 +13,6 @@
                 </v-carousel-item>
             </v-carousel>
         </v-card>
-        <Footer />
     </div>
 </template>
 
