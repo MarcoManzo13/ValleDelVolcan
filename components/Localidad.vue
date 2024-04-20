@@ -1,6 +1,6 @@
 <template>
     <div class="mb-10">
-        <p class="text-center text-h4 mb-5">Dirección</p> 
+        <p class="text-center font-size-h1 mb-5">Dirección</p> 
 
         <v-card
           color="#0B4864"
@@ -15,12 +15,9 @@
               <v-col cols="12" md="4" xl="4">
                 <div class="d-flex flex-column align-center justify-center text-center" style="height: 100%;" >
                   <div>
-                    <v-card-title class="text-h5 text-center mb-5">
-                      Dirección
-                    </v-card-title>
-                    <v-card-subtitle class="text-wrap text-h6 text-justify my-5">
+                    <v-card-title class="text-wrap font-size-h2 text-justify" style="line-height: 1.5;">
                       Camino Real a San Andrés 1230, Local 1 Plaza Bahías, 72810 San Andrés Cholula, Puebla México.
-                    </v-card-subtitle>
+                    </v-card-title>
                   </div>
                 </div>
               </v-col>
@@ -46,5 +43,8 @@
 </script>
 
 <style lang="scss" scoped>
-
+    @import '~/Styles.css';
+    * {
+      font-family: Dosis, sans-serif;
+    }
 </style>

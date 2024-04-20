@@ -6,7 +6,7 @@ export default defineNuxtConfig({
     transpile: ['vuetify'],
   },
   modules: [
-    '@nuxtjs/google-fonts',
+    '@nuxt/fonts',
     'nuxt-icon',
     (_options, nuxt) => {
       nuxt.hooks.hook('vite:extendConfig', (config) => {
@@ -16,6 +16,15 @@ export default defineNuxtConfig({
     },
     //...
   ],
+  fonts : {
+    families: [
+      { name: 'Dosis', provider: 'google' },
+    ],
+    defaults: {
+      weights: [400],
+      styles: ['normal'],
+    },
+  },
   vite: {
     vue: {
       template: {
@@ -29,9 +38,6 @@ export default defineNuxtConfig({
         meta: [
             { name: 'description', content: 'Página web para la purificadora Valle del Volcán'}
         ],
-        link: [
-          { rel: 'stylesheet', href: 'https://fonts.google.com/share?selection.family=Dosis:wght@200..800'}
-        ]
     },
     pageTransition: { name: 'page', mode: 'out-in' }
 },

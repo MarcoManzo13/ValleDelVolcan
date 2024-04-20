@@ -15,16 +15,16 @@
                 </v-col>
                 <v-col cols="12" md="4" xl="4" class="d-flex align-center justify-center space-between flex-column">
                   <v-card color="#fff">
-                    <v-card-title class="d-flex flex-column px-9">
+                    <v-card-title class="d-flex flex-column px-9 font-size-h4">
                       <span class="mt-3" style="width: 100%;">{{ item.nombre }}</span>
                       <span class="my-3" style="width: 100%;">{{ item.precio }}</span>
                     </v-card-title>
-                    <v-card-subtitle class="text-h6 pa-8 text-wrap text-justify">
+                    <v-card-subtitle class="pa-8 text-wrap text-justify text-h5" style="line-height: 1.5;">
                       {{ item.descripcion }}
                     </v-card-subtitle>
                     <v-card-actions class="d-flex align-center justify-center text-center mt-16" style="max-width: 100%;">
                       <v-btn rounded="xl" variant="outlined" style="width: 100%;">
-                        <p class="mr-3">Cotizar</p>
+                        <p class="mr-3 text-h5">Cotizar</p>
                         <Icon name="fa-brands:whatsapp" size="1.5em" />
                       </v-btn>
                     </v-card-actions>
@@ -76,5 +76,8 @@ export default {
 </script>
 
 <style scoped>
-
+    @import '~/Styles.css';
+    * {
+        font-family: Dosis, sans-serif;
+    }
 </style>

@@ -5,14 +5,13 @@
             theme="dark"
             class="mx-15"
         >
-        
             <v-container fluid>
                     <v-row class="d-flex align-center justify-space-evenly">
                         <v-col cols="12" md="6" xl="6">
-                            <v-card-title class="text-h4 text-center mb-10">
+                            <v-card-title class="font-size-h2 text-center mb-10">
                                 Certificaciones
                             </v-card-title>
-                            <v-card-text class="text-wrap text-justify text-h5" style="line-height: 1.5">
+                            <v-card-text class="text-wrap text-justify font-size-h4" style="line-height: 1.5">
                                 Trataquim es una empresa que ayuda al desarrollo de la sociedad actual globalizada con penetración y expansión en el mundo.
                                 Ofreciéndonos la certificación mensual de calidad en base a la Norma Oficial Mexicana "NOM-201-SSA1-2015"
                             </v-card-text>
@@ -51,9 +50,12 @@ export default {
             ],
         }
     },
-  }
+}
 </script>
 
 <style scoped>
-
+    @import '~/Styles.css';
+    * {
+        font-family: Dosis, sans-serif;
+    }
 </style>

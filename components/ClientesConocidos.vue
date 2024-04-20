@@ -1,6 +1,6 @@
 <template>
     <div class="my-10">
-        <p class="text-center text-h4 mb-10">Nuestros Clientes</p>
+        <p class="text-center text-h3 mb-10">Nuestros Clientes</p>
             <div class="mx-10">
                 <v-row no-gutters>
                     <v-col cols="12" md="4" xl="4" class="my-2">
@@ -71,5 +71,7 @@
 </script>
 
 <style scoped>
-
+    * {
+        font-family: Dosis, sans-serif;
+    }
 </style>

@@ -1,0 +1,78 @@
+/* Default styles for all screen sizes */
+.font-size-h1 {
+    font-size: 3.125rem; 
+    line-height: 1;
+    letter-spacing: -0.0625rem;
+}
+
+.font-size-h2 {
+    font-size: 2.875rem; 
+    line-height: 1.067;
+    letter-spacing: -0.05rem;
+}
+
+.font-size-h3 {
+    font-size: 2.5rem; 
+    line-height: 1.083;
+    letter-spacing: -0.0375rem;
+}
+
+.font-size-h4 {
+    font-size: 2.25rem; 
+    line-height: 1.1;
+    letter-spacing: -0.025rem;
+}
+
+.font-size-h5 {
+    font-size: 2.125rem; 
+    line-height: 2;
+}
+
+.font-size-h6 {
+    font-size: 1.8rem; 
+    line-height: 1.5;
+}
+
+/* Media queries for tablet screens */
+@media screen and (max-width: 768px) {
+    .font-size-h1 {
+        font-size: 2.8rem;
+    }
+    .font-size-h2 {
+        font-size: 2.6rem;
+    }
+    .font-size-h3 {
+        font-size: 2.4rem;
+    }
+    .font-size-h4 {
+        font-size: 2.2rem;
+    }
+    .font-size-h5 {
+        font-size: 2rem;
+    }
+    .font-size-h6 {
+        font-size: 1.8rem;
+    }
+}
+
+/* Media queries for mobile screens */
+@media screen and (max-width: 480px) {
+    .font-size-h1 {
+        font-size: 3rem;
+    }
+    .font-size-h2 {
+        font-size: 2rem;
+    }
+    .font-size-h3 {
+        font-size: 1.8rem;
+    }
+    .font-size-h4 {
+        font-size: 1.6rem; 
+    }
+    .font-size-h5 {
+        font-size: 1.4rem; 
+    }
+    .font-size-h6 {
+        font-size: 1.2rem; 
+    }
+}
