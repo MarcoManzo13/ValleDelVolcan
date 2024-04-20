@@ -11,11 +11,11 @@
                             >
                             </v-img>
                             <v-card-text>                            
-                                <div class="text-center">
+                                <div class="text-center text-h5">
                                     Nombre
                                 </div>
                             </v-card-text>
-                            <v-card-subtitle class="pt-4 text-justify text-wrap">
+                            <v-card-subtitle class="text-justify text-wrap text-h6" style="line-height: 1.5;">
                                 Trabajar en nuestra empresa es llevar frescura y calidad directamente a los hogares. Es conectar con la comunidad y ser parte de su día a día, asegurando que siempre tengan agua pura a su alcance.
                             </v-card-subtitle>
                         </v-card>
@@ -28,11 +28,11 @@
                             >
                             </v-img>
                             <v-card-text>                            
-                                <div class="text-center">
+                                <div class="text-center text-h5">
                                     Nombre
                                 </div>
                             </v-card-text>
-                            <v-card-subtitle class="pt-4 text-justify text-wrap">
+                            <v-card-subtitle class="text-justify text-wrap text-h6" style="line-height: 1.5;">
                                 Trabajar en nuestra empresa es llevar frescura y calidad directamente a los hogares. Es conectar con la comunidad y ser parte de su día a día, asegurando que siempre tengan agua pura a su alcance.
                             </v-card-subtitle>
                         </v-card>
@@ -45,11 +45,11 @@
                             >
                             </v-img>
                             <v-card-text>                            
-                                <div class="text-center">
+                                <div class="text-center text-h5">
                                     Nombre
                                 </div>
                             </v-card-text>
-                            <v-card-subtitle class="pt-4 text-justify text-wrap">
+                            <v-card-subtitle class="text-justify text-wrap text-h6" style="line-height: 1.5;">
                                 Trabajar en nuestra empresa es llevar frescura y calidad directamente a los hogares. Es conectar con la comunidad y ser parte de su día a día, asegurando que siempre tengan agua pura a su alcance.
                             </v-card-subtitle>
                         </v-card>

@@ -20,9 +20,13 @@
                     <v-card-subtitle class="text-h5 pa-10 text-wrap text-justify" style="line-height: 1.5;">
                         Camino Real a San Andrés 1230, Local 1 Plaza Bahías, 72810 San Andrés Cholula, Puebla México.
                     </v-card-subtitle>
-                    <v-card-actions>
-                        <v-btn href="https://maps.app.goo.gl/mg9mXJYQhmEbrkH16" rel="noopener" target="_blank" rounded="xl" variant="outlined" class="px-7">
+                    <v-card-actions class="d-flex flex-column">
+                        <v-btn href="https://maps.app.goo.gl/mg9mXJYQhmEbrkH16" rel="noopener" target="_blank" rounded="xl" variant="outlined" style="width: 100%;">
                             Visitar...
+                        </v-btn>
+                        <v-btn rounded="xl" variant="outlined" style="width: 100%;" class="mt-5">
+                            <p class="mr-3">Cotizar</p> 
+                            <Icon name="fa-brands:whatsapp" size="1.5em"/>
                         </v-btn>
                     </v-card-actions>
                 </v-card>
