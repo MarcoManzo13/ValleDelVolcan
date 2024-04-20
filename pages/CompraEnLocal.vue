@@ -66,7 +66,7 @@ export default {
             descripcion: 'Rellena tu garrafón directo en nuestra tienda o en el autoservicio.',
             horario: 'Ventanilla Lunes a viernes 8 am - 7 pm. Sábado 9 am - 4pm.',
             descripcion2: 'La limpieza y sellado de garrafón en ventanilla se incluye con el servicio.',
-            descripcion3: '',
+            descripcion3: 'Auto Servicio las 24 hrs.',
             descripcion4: 'Contamos con servicio de facturación!',
             facturacion: '',
           },
